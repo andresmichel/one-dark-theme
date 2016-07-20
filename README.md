@@ -1,13 +1,13 @@
 # Sublime One dark theme
 ![Sublime One dark theme](http://i.imgur.com/ceim8Nh.png)
-Based on https://atom.io/themes/one-dark-ui
+> Based on [Atom One dark ui theme](https://atom.io/themes/one-dark-ui)
 
 ## Install
 1. Download the [latest release](https://github.com/andresmichel/sublime-one-dark/releases/latest), extract and rename the directory to **"Theme - One Dark"**.
 2. Move the directory inside your sublime `Packages` directory. **Preferences > Browse packages...**
 
 ## Activate
-1. Open you preferences **Preferences > Setting - User** and add this lines:
+1. Open your preferences **Preferences > Setting - User** and add this lines:
 
 ```json
 "theme": "one-dark.sublime-theme",
