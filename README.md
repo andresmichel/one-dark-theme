@@ -1,5 +1,5 @@
 # Sublime One dark theme
-A dark Sublime Text 3 theme based on [Atom One dark theme](https://github.com/atom/one-dark-ui)
+A dark Sublime Text 3 theme based on [Atom One dark theme](https://github.com/atom/one-dark-ui).
 
 ![Sublime One dark theme](http://i.imgur.com/x1vy8Nw.png)
 > Color scheme by [IceTimux](https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme)
