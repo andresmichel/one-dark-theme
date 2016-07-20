@@ -5,7 +5,7 @@
 1. Download the [latest release](https://github.com/andresmichel/one-dark-theme/releases/latest), extract and rename the directory to **"Theme - One Dark"**.
 2. Move the directory inside your sublime `Packages` directory. **(Preferences > Browse packages...)**
 
-# Activate
+# Activation
 
 1. Open you preferences **(Preferences > Setting - User)** and add this lines:
 
