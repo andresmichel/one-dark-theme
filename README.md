@@ -4,7 +4,7 @@ A dark theme for Sublime Text 3 based on [Atom One dark UI theme](https://github
 > Color scheme by [IceTimux](https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme)
 
 ## Install
-1. Download the [latest release](https://github.com/andresmichel/sublime-one-dark/releases/latest), extract and rename the directory to **`"Theme - One Dark"`**.
+1. Download the [latest release](https://github.com/andresmichel/sublime-one-dark/releases/latest), extract and rename the directory to `"Theme - One Dark"`.
 2. Move the directory inside your sublime `Packages` directory. **`Preferences > Browse packages...`**
 
 ## Activate
@@ -15,7 +15,7 @@ Open your preferences **`Preferences > Setting - User`** and add this lines:
 "color_scheme": "Packages/Theme - One Dark/schemes/one-dark.tmTheme",
 ```
 
-#### Recommended settings
+Recommended settings
 ```json
 "line_padding_bottom": 2,
 "line_padding_top": 2,
