@@ -1,4 +1,4 @@
-<> (# Sublime One dark theme
+# (# Sublime One dark theme)
 ![Sublime One dark theme](http://i.imgur.com/ceim8Nh.png)
 Based on https://atom.io/themes/one-dark-ui
 
