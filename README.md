@@ -6,7 +6,7 @@ A dark Sublime Text 3 theme based on [Atom One dark theme](https://github.com/at
 
 ## Install
 1. Download the [latest release](https://github.com/andresmichel/sublime-one-dark/releases/latest), extract and rename the directory to *`"Theme - One Dark"`*.
-2. Move the directory inside your sublime *`Packages`* directory, *`Preferences`* > *`Browse packages`*.
+2. Move the directory inside your packages directory, *`Preferences`* > *`Browse packages`*.
 
 ## Activate
 Open your preferences *`Preferences`* > *`Setting - User`* and add this lines:
@@ -22,5 +22,3 @@ Open your preferences *`Preferences`* > *`Setting - User`* and add this lines:
 "line_padding_top": 2,
 "indent_guide_options" : [ "draw_normal", "draw_active" ],
 ```
-
-#
