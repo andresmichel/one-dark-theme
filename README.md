@@ -12,7 +12,7 @@
 "color_scheme": "Packages/Theme - One Dark/schemes/one-dark.tmTheme",
 ```
 
-# Recommended settings for a better experience:
+# Recommended settings:
 
 ```json
 "line_padding_bottom": 2,
