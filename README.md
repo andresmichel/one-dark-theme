@@ -2,7 +2,7 @@
 
 # Installation
 
-1. Download the [latest release](https://github.com/andresmichel/one-dark-theme/releases/latest), extract and rename the directory to **"Theme - One Dark"**.
+1. Download the [latest release](https://github.com/andresmichel/sublime-one-dark/releases/latest), extract and rename the directory to **"Theme - One Dark"**.
 2. Move the directory inside your sublime `Packages` directory. **(Preferences > Browse packages...)**
 
 # Activation
