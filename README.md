@@ -1,3 +1,5 @@
+![Sublime One dark](http://i.imgur.com/IBJl331.png)
+
 # Installation
 
 1. Download the [latest release](https://github.com/andresmichel/one-dark-theme/releases/latest), extract and rename the directory to **"Theme - One Dark"**.
