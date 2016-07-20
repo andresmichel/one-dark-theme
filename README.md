@@ -1,4 +1,4 @@
-![Sublime One dark](http://i.imgur.com/IBJl331.png)
+![Sublime One dark](http://i.imgur.com/ceim8Nh.png)
 
 # Installation
 
