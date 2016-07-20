@@ -21,3 +21,5 @@ Open your preferences *`Preferences`* > *`Setting - User`* and add this lines:
 "line_padding_top": 2,
 "indent_guide_options" : [ "draw_normal", "draw_active" ],
 ```
+
+#
