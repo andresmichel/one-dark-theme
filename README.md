@@ -7,7 +7,7 @@ A dark theme for Sublime Text 3 based on [Atom One dark UI](https://atom.io/them
 2. Move the directory inside your sublime `Packages` directory. **Preferences > Browse packages...**
 
 ## Activate
-1. Open your preferences `**Preferences > Setting - User**` and add this lines:
+1. Open your preferences **`Preferences > Setting - User`** and add this lines:
 
 ```json
 "theme": "one-dark.sublime-theme",
