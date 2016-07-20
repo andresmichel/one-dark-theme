@@ -15,7 +15,7 @@ Open your preferences **`Preferences > Setting - User`** and add this lines:
 "color_scheme": "Packages/Theme - One Dark/schemes/one-dark.tmTheme",
 ```
 
-### Recommended settings
+#### Recommended settings
 ```json
 "line_padding_bottom": 2,
 "line_padding_top": 2,
