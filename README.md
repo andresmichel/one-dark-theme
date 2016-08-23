@@ -12,13 +12,15 @@ A dark Sublime Text 3 theme based on [Atom One dark theme](https://github.com/at
 Open your preferences *`Preferences`* > *`Setting - User`* and add this lines:
 
 ```json
-"theme": "one-dark.sublime-theme",
-"color_scheme": "Packages/one-dark-theme/schemes/one-dark.tmTheme",
+"theme": "One Dark.sublime-theme",
+"color_scheme": "Packages/One Dark/One Dark.tmTheme",
 ```
 
 ### Recommended settings
 ```json
 "line_padding_bottom": 2,
 "line_padding_top": 2,
+"tree_animation_enabled": false,
 "indent_guide_options" : [ "draw_normal", "draw_active" ],
+"margin": 0,
 ```
