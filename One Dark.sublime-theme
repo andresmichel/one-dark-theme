@@ -752,7 +752,7 @@
     // STATUS BAR - ICON BUTTON
     {
         "class": "panel_button_control",
-        "layer0.texture": "One Dark/assets/__/status_bar_panels_icon.png",
+        "layer0.texture": "One Dark/assets/__/status_bar_panels.png",
         "layer0.opacity": 1.0,
         "content_margin": [12, 8]
     },
