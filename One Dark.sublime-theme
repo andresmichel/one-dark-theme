@@ -2,7 +2,7 @@
     // AUTOCOMPLETE - BACKGROUND
     {
         "class": "auto_complete",
-        "layer0.texture": "One Dark/assets/__/autocomplete_bg.png",
+        "layer0.texture": "One Dark/assets/autocomplete_bg.png",
         "layer0.inner_margin": [3, 3],
         "layer0.opacity": 1.0,
         "dark_content": false,
@@ -42,8 +42,8 @@
     // CODE FOLDING BUTTON
     {
         "class": "fold_button_control",
-        "layer0.texture": "One Dark/assets/__/code_folding.png",
-        "layer1.texture": "One Dark/assets/__/code_folding_over.png",
+        "layer0.texture": "One Dark/assets/code_folding.png",
+        "layer1.texture": "One Dark/assets/code_folding_over.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "content_margin": [8, 8]
@@ -59,8 +59,8 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "One Dark/assets/__/code_folding_expanded.png",
-        "layer1.texture": "One Dark/assets/__/code_folding_expanded_over.png"
+        "layer0.texture": "One Dark/assets/code_folding_expanded.png",
+        "layer1.texture": "One Dark/assets/code_folding_expanded_over.png"
     },
 
     /* -------------------------------------------------------------------------------- */
@@ -68,7 +68,7 @@
     // COMMAND PALETTE & GOTO PANEL BACKGROUND
     {
         "class": "overlay_control",
-        "layer0.texture": "One Dark/assets/__/goto_panel_bg.png",
+        "layer0.texture": "One Dark/assets/goto_panel_bg.png",
         "layer0.inner_margin": [27, 0, 26, 34],
         "layer0.opacity": 1.0,
         "content_margin": [30, 9, 30, 38]
@@ -76,7 +76,7 @@
     // COMMAND PALETTE PANEL - ROW
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "One Dark/assets/__/goto_panel_row.png",
+        "layer0.texture": "One Dark/assets/goto_panel_row.png",
         "layer0.inner_margin": [1, 0, 1, 1],
         "layer0.opacity": 1.0
     },
@@ -84,7 +84,7 @@
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "One Dark/assets/__/goto_panel_row_selected.png"
+        "layer0.texture": "One Dark/assets/goto_panel_row_selected.png"
     },
 
     /* -------------------------------------------------------------------------------- */
@@ -101,24 +101,23 @@
     // INPUT FIELD - BACKGROUND
     {
         "class": "text_line_control",
-        "layer0.texture": "One Dark/assets/__/input_bg.png",
+        "layer0.texture": "One Dark/assets/input_bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 4],
-        "tint_index": 1,
         "content_margin": [10, 6, 10, 6]
     },
     // INPUT FIELD - BACKGROUND : HOVER
     {
         "class": "text_line_control",
         "attributes": ["hover"],
-        "layer0.texture": "One Dark/assets/__/input_bg_hover.png"
+        "layer0.texture": "One Dark/assets/input_bg_hover.png"
     },
     // INPUT FIELD - DROPDOWN BUTTON
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "One Dark/assets/__/arrow_down.png",
-        "layer1.texture": "One Dark/assets/__/arrow_down.png",
+        "layer0.texture": "One Dark/assets/arrow_down.png",
+        "layer1.texture": "One Dark/assets/arrow_down.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
@@ -141,7 +140,7 @@
     // FIND PANEL - BACKGROUND
     {
         "class": "panel_control",
-        "layer0.texture": "One Dark/assets/__/find_panel_bg.png",
+        "layer0.texture": "One Dark/assets/find_panel_bg.png",
         "layer0.inner_margin": [0, 1, 0, 0],
         "content_margin": [5, 2, 2, 2],
         "layer0.opacity": 1.0
@@ -175,9 +174,9 @@
         "class": "button_control",
         "content_margin": [10, 9, 10 , 9],
         "min_size": [75, 0],
-        "layer0.texture": "One Dark/assets/__/find_panel_button.png",
-        "layer1.texture": "One Dark/assets/__/find_panel_button_over.png",
-        "layer2.texture": "One Dark/assets/__/find_panel_button_pressed.png",
+        "layer0.texture": "One Dark/assets/find_panel_button.png",
+        "layer1.texture": "One Dark/assets/find_panel_button_over.png",
+        "layer2.texture": "One Dark/assets/find_panel_button_pressed.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
@@ -200,10 +199,10 @@
     // FIND PANEL - MIDDLE ICON BUTTON
     {
         "class": "icon_button_control",
-        "layer0.texture": "One Dark/assets/__/find_panel_middle_button.png",
-        "layer1.texture": "One Dark/assets/__/find_panel_middle_button_over.png",
-        "layer2.texture": "One Dark/assets/__/find_panel_middle_button_pressed.png",
-        "layer3.texture": "One Dark/assets/__/find_panel_middle_button_selected.png",
+        "layer0.texture": "One Dark/assets/find_panel_middle_button.png",
+        "layer1.texture": "One Dark/assets/find_panel_middle_button_over.png",
+        "layer2.texture": "One Dark/assets/find_panel_middle_button_pressed.png",
+        "layer3.texture": "One Dark/assets/find_panel_middle_button_selected.png",
         "layer0.inner_margin": [3, 4],
         "layer1.inner_margin": [3, 4],
         "layer2.inner_margin": [3, 4],
@@ -218,28 +217,28 @@
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "One Dark/assets/__/find_panel_left_button.png",
-        "layer1.texture": "One Dark/assets/__/find_panel_left_button_over.png",
-        "layer2.texture": "One Dark/assets/__/find_panel_left_button_pressed.png",
-        "layer3.texture": "One Dark/assets/__/find_panel_left_button_selected.png"
+        "layer0.texture": "One Dark/assets/find_panel_left_button.png",
+        "layer1.texture": "One Dark/assets/find_panel_left_button_over.png",
+        "layer2.texture": "One Dark/assets/find_panel_left_button_pressed.png",
+        "layer3.texture": "One Dark/assets/find_panel_left_button_selected.png"
     },
     // FIND PANEL - RIGHT ICON BUTTON
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "One Dark/assets/__/find_panel_right_button.png",
-        "layer1.texture": "One Dark/assets/__/find_panel_right_button_over.png",
-        "layer2.texture": "One Dark/assets/__/find_panel_right_button_pressed.png",
-        "layer3.texture": "One Dark/assets/__/find_panel_right_button_selected.png"
+        "layer0.texture": "One Dark/assets/find_panel_right_button.png",
+        "layer1.texture": "One Dark/assets/find_panel_right_button_over.png",
+        "layer2.texture": "One Dark/assets/find_panel_right_button_pressed.png",
+        "layer3.texture": "One Dark/assets/find_panel_right_button_selected.png"
     },
     // FIND PANEL - ICON BUTTON
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "One Dark/assets/__/find_panel_button.png",
-        "layer1.texture": "One Dark/assets/__/find_panel_button_over.png",
-        "layer2.texture": "One Dark/assets/__/find_panel_button_pressed.png",
-        "layer3.texture": "One Dark/assets/__/find_panel_button_selected.png"
+        "layer0.texture": "One Dark/assets/find_panel_button.png",
+        "layer1.texture": "One Dark/assets/find_panel_button_over.png",
+        "layer2.texture": "One Dark/assets/find_panel_button_pressed.png",
+        "layer3.texture": "One Dark/assets/find_panel_button_selected.png"
     },
     // FIND PANEL - ICON BUTTON : HOVER
     {
@@ -531,8 +530,8 @@
     // GOTO PANEL - ROW
     {
         "class": "quick_panel_row",
-        "layer0.texture": "One Dark/assets/__/goto_panel_row.png",
-        "layer1.texture": "One Dark/assets/__/goto_panel_row_selected.png",
+        "layer0.texture": "One Dark/assets/goto_panel_row.png",
+        "layer1.texture": "One Dark/assets/goto_panel_row_selected.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer0.inner_margin": [1, 0, 1, 1],
@@ -651,7 +650,7 @@
     // SCROLLBAR - VERTICAL THUMB
     {
         "class": "puck_control",
-        "layer0.texture": "One Dark/assets/__/scrollbar_thumb_vertical.png",
+        "layer0.texture": "One Dark/assets/scrollbar_thumb_vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12],
@@ -661,7 +660,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "One Dark/assets/__/scrollbar_thumb_horizontal.png",
+        "layer0.texture": "One Dark/assets/scrollbar_thumb_horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
@@ -700,7 +699,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "One Dark/assets/__/scrollbar_thumb_vertical.png",
+        "layer0.texture": "One Dark/assets/scrollbar_thumb_vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [8, 12],
         "blur": true
@@ -710,7 +709,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "One Dark/assets/__/scrollbar_thumb_horizontal.png",
+        "layer0.texture": "One Dark/assets/scrollbar_thumb_horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [12, 8],
         "blur": true
@@ -729,7 +728,7 @@
     // STATUS BAR - BACKGROUND
     {
         "class": "status_bar",
-        "layer0.texture": "One Dark/assets/__/find_panel_bg.png",
+        "layer0.texture": "One Dark/assets/find_panel_bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 1, 0, 0],
         "content_margin": [6, 6, 4, 5]
@@ -752,7 +751,7 @@
     // STATUS BAR - ICON BUTTON
     {
         "class": "panel_button_control",
-        "layer0.texture": "One Dark/assets/__/status_bar_panels.png",
+        "layer0.texture": "One Dark/assets/status_bar_panels.png",
         "layer0.opacity": 1.0,
         "content_margin": [12, 8]
     },
@@ -762,15 +761,9 @@
     // TAB PANEL - BACKGROUND
     {
         "class": "tabset_control",
-
+        "layer0.texture": "One Dark/assets/tab_panel_bg.png",
         "layer0.opacity": 1.0,
-        "tint_index": 0,
-
-        "layer1.texture": "One Dark/assets/medium_dark_tabset_background_transparent.png",
-        "layer1.inner_margin": [2, 6],
-        "layer1.opacity": 1.0,
-
-        "tab_overlap": 0,
+        "tab_overlap": 1,
         "tab_width": 180,
         "tab_min_width": 48,
         "tab_height": 42,
@@ -782,24 +775,51 @@
         "settings": ["mouse_wheel_switches_tabs", "!enable_tab_scrolling"],
         "mouse_wheel_switch": true
     },
+    // SCROLL TAB - LEFT BUTTON
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": [8, 8],
+        "layer0.texture": "One Dark/assets/arrow_left.png",
+        "layer1.texture": "One Dark/assets/arrow_left.png",
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0,
+        "layer0.inner_margin": 0,
+        "layer1.inner_margin": 0
+    },
+    // SCROLL TAB - LEFT BUTTON : HOVER
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
+    },
+    // SCROLL TAB - RIGHT BUTTON
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": [8, 8],
+        "layer0.texture": "One Dark/assets/arrow_right.png",
+        "layer1.texture": "One Dark/assets/arrow_right.png",
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0,
+        "layer0.inner_margin": 0,
+        "layer1.inner_margin": 0
+    },
+    // SCROLL TAB - RIGHT BUTTON : HOVER
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
+    },
     // TAB : UNSELECTED
     {
         "class": "tab_control",
-
-        "layer0.texture": "One Dark/assets/tab_mask_152_gradient2.png",
-        "layer0.inner_margin": [22, 4],
-        "layer0.opacity": 0.0,
-        "tint_index": 0,
-        "tint_modifier": [255, 255, 255, 32],
-
-        "layer1.texture": "",
-        "layer1.inner_margin": [22, 4],
+        "layer0.texture": "One Dark/assets/tab_unselected.png",
+        "layer1.texture": "One Dark/assets/tab_selected.png",
+        "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
-
-        "layer2.inner_margin": [22, 4],
-        "layer2.texture": "One Dark/assets/medium_dark_unselected_tab_bg2.png",
-        "layer2.opacity": 1.0,
-
+        "layer0.inner_margin": [3, 9, 2, 0],
+        "layer1.inner_margin": [3, 9, 2, 0],
         "content_margin": [24, 8, 10, 2],
         "max_margin_trim": 6,
         "hit_test_level": 0.4
@@ -808,21 +828,15 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "tint_modifier": [255,255,255,255],
-
-        "layer0.texture": "One Dark/assets/tab_mask_white.png",
-        
-        "layer1.opacity": 0.0,
-
-        "layer2.texture": "One Dark/assets/medium_dark_selected_tab_bg.png",
-        "layer2.opacity": 1
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0,
     },
     // TAB - LABEL
     {
         "class": "tab_label",
         "fg": [255, 255, 255, 140],
-        "shadow_color": [0, 0, 0, 100],
-        "shadow_offset": [0, -1],
+        "shadow_color": [0, 0, 0, 0],
+        "shadow_offset": [0, 0],
         "font.italic": false
     },
     // TAB - LABEL : SELECTED
@@ -830,8 +844,8 @@
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [255, 255, 255],
-        "shadow_color": [0, 0, 0, 255],
-        "shadow_offset": [0, -1]
+        "shadow_color": [0, 0, 0, 0],
+        "shadow_offset": [0, 0]
     },
     // TAB - LABEL : DIRTY
     {
@@ -853,7 +867,7 @@
         "content_margin": [0, 0],
         "layer0.inner_margin": 0,
         "layer0.texture": "One Dark/assets/close.png",
-        "layer1.texture": "One Dark/assets/blue_circle.png",
+        "layer1.texture": "One Dark/assets/dirty.png",
         "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
@@ -926,55 +940,18 @@
         "attributes": ["pressed"],
         "layer0.opacity": 0.6
     },
-
-    // TAB - SCROLL LEFT BUTTON
-    {
-        "class": "scroll_tabs_left_button",
-        "content_margin": [8, 8],
-        "layer0.texture": "One Dark/assets/__/arrow_left.png",
-        "layer1.texture": "One Dark/assets/__/arrow_left.png",
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0,
-        "layer0.inner_margin": 0,
-        "layer1.inner_margin": 0
-    },
-    // TAB - SCROLL LEFT BUTTON : HOVER
-    {
-        "class": "scroll_tabs_left_button",
-        "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
-    },
-    // TAB - SCROLL RIGHT BUTTON
-    {
-        "class": "scroll_tabs_right_button",
-        "content_margin": [8, 8],
-        "layer0.texture": "One Dark/assets/__/arrow_right.png",
-        "layer1.texture": "One Dark/assets/__/arrow_right.png",
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0,
-        "layer0.inner_margin": 0,
-        "layer1.inner_margin": 0
-    },
-    // TAB - SCROLL RIGHT BUTTON : HOVER
-    {
-        "class": "scroll_tabs_right_button",
-        "attributes": ["hover"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
-    },
-    // TAB - DROPDOWN BUTTON
+    // SHOW TABS - DROPDOWN BUTTON
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
-        "layer0.texture": "One Dark/assets/__/arrow_down.png",
-        "layer1.texture": "One Dark/assets/__/arrow_down.png",
+        "layer0.texture": "One Dark/assets/arrow_down.png",
+        "layer1.texture": "One Dark/assets/arrow_down.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer0.inner_margin": 0,
         "layer1.inner_margin": 0
     },
-    // TAB - DROPDOWN BUTTON : HOVER
+    // SHOW TABS - DROPDOWN BUTTON : HOVER
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
@@ -987,7 +964,7 @@
     // TOOLTIP - BACKGROUND
     {
         "class": "tool_tip_control",
-        "layer0.texture": "One Dark/assets/__/tooltip_bg.png",
+        "layer0.texture": "One Dark/assets/tooltip_bg.png",
         "layer0.inner_margin": [3, 3],
         "layer0.opacity": 1.0,
         "content_margin": [10,10]
@@ -1030,10 +1007,10 @@
     // TREE VIEW - DISCLOSURE BUTTON
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "One Dark/assets/__/arrow_right.png",
+        "layer0.texture": "One Dark/assets/arrow_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "One Dark/assets/__/arrow_right.png",
+        "layer1.texture": "One Dark/assets/arrow_right.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [8, 8]
@@ -1051,8 +1028,8 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "One Dark/assets/__/arrow_down.png",
-        "layer1.texture": "One Dark/assets/__/arrow_down.png"
+        "layer0.texture": "One Dark/assets/arrow_down.png",
+        "layer1.texture": "One Dark/assets/arrow_down.png"
     },
     // TREE VIEW - ROW
     {
@@ -1071,21 +1048,27 @@
     {
         "class": "close_button",
         "layer0.texture": "One Dark/assets/close.png",
+        "layer1.texture": "One Dark/assets/dirty.png",
         "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0,
         "layer0.inner_margin": 0,
+        "layer1.inner_margin": 0,
         "content_margin": [8, 8]
     },
     // TREE VIEW - CLOSE BUTTON DIRTY
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "One Dark/assets/close.png"
+        "layer0.texture": "One Dark/assets/close.png",
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0,
     },
     // TREE VIEW - CLOSE BUTTON HOVER
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 0.5,
+        "layer1.opacity": 0.0,
     },
     // TREE VIEW - LABEL
     {
