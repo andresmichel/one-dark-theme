@@ -1,21 +1,21 @@
 [
-    // AUTOCOMPLETE - BACKGROUND
+    // Autocomplete - background
     {
         "class": "auto_complete",
         "layer0.texture": "One Dark/assets/autocomplete_bg.png",
-        "layer0.inner_margin": [3, 3],
         "layer0.opacity": 1.0,
-        "dark_content": false,
-        "row_padding": [7, 4]
+        "layer0.inner_margin": [3, 3],
+        "row_padding": [7, 4],
+        "dark_content": false
     },
-    // AUTOCOMPLETE - BORDER
+    // Autocomplete - border
     {
         "class": "popup_control",
+        "content_margin": [0, 0],
         "layer0.tint": [0, 0, 0, 0],
-        "layer0.opacity": 0.0,
-        "content_margin": [0, 0]
+        "layer0.opacity": 0.0
     },
-    // AUTOCOMPLETE - LABEL
+    // Autocomplete - label
     {
         "class": "auto_complete_label",
         "fg": [155 ,163, 177],
@@ -23,96 +23,88 @@
         "selected_fg": [215, 216, 219],
         "selected_match_fg": [255, 255, 255]
     },
-    // AUTOCOMPLETE - TABLE ROW
+    // Autocomplete - table row
     {
         "class": "table_row",
         "layer0.tint": [215, 216, 254, 28],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
-    // AUTOCOMPLETE - TABLE ROW : SELECTED
+    // Autocomplete - table row : selected
     {
         "class": "table_row",
         "attributes": ["selected"],
         "layer0.opacity": 1.0
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // CODE FOLDING BUTTON
+    // Code folding button
     {
         "class": "fold_button_control",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/assets/code_folding.png",
-        "layer1.texture": "One Dark/assets/code_folding_over.png",
         "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0,
-        "content_margin": [8, 8]
+        "layer1.texture": "One Dark/assets/code_folding_hover.png",
+        "layer1.opacity": 0.0
     },
-    // CODE FOLDING BUTTON : HOVER
+    // Code folding button : hover
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
-    // CODE FOLDING BUTTON : EXPANDED
+    // Code folding button : expanded
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "One Dark/assets/code_folding_expanded.png",
-        "layer1.texture": "One Dark/assets/code_folding_expanded_over.png"
+        "layer1.texture": "One Dark/assets/code_folding_expanded_hover.png"
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // COMMAND PALETTE & GOTO PANEL BACKGROUND
+    // Command palette & goto panel background
     {
         "class": "overlay_control",
+        "content_margin": [30, 9, 30, 38],
         "layer0.texture": "One Dark/assets/goto_panel_bg.png",
-        "layer0.inner_margin": [27, 0, 26, 34],
         "layer0.opacity": 1.0,
-        "content_margin": [30, 9, 30, 38]
+        "layer0.inner_margin": [27, 0, 26, 34]
     },
-    // COMMAND PALETTE PANEL - ROW
+    // Command palette panel - row
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "One Dark/assets/goto_panel_row.png",
-        "layer0.inner_margin": [1, 0, 1, 1],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [1, 0, 1, 1]
     },
-    // COMMAND PALETTE PANEL - ROW : SELECTED
+    // Command palette panel - row : selected
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "One Dark/assets/goto_panel_row_selected.png"
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // DIALOG ?
+    // Dialog ?
     {
         "class": "dialog",
         "layer0.tint": [33, 37, 43],
         "layer0.opacity": 1.0
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // INPUT FIELD - BACKGROUND
+    // Input field - background
     {
         "class": "text_line_control",
+        "content_margin": [10, 6],
         "layer0.texture": "One Dark/assets/input_bg.png",
+        "layer1.texture": "One Dark/assets/input_bg_hover.png",
         "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0,
         "layer0.inner_margin": [4, 4],
-        "content_margin": [10, 6, 10, 6]
+        "layer1.inner_margin": [4, 4]
     },
-    // INPUT FIELD - BACKGROUND : HOVER
+    // Input field - background : hover
     {
         "class": "text_line_control",
         "attributes": ["hover"],
-        "layer0.texture": "One Dark/assets/input_bg_hover.png"
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0,
     },
-    // INPUT FIELD - DROPDOWN BUTTON
+    // Input field - dropdown button
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
@@ -121,31 +113,28 @@
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
-    // INPUT FIELD - DROPDOWN BUTTON : HOVER
+    // Input field - dropdown button : hover
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
         "layer1.opacity": 1.0
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // FIND PANEL & STATUS BUTTON - LABEL
+    // Find panel & status button - label
     {
         "class": "label_control",
         "color": [157, 165, 180],
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
-    // FIND PANEL - BACKGROUND
+    // Find panel - background
     {
         "class": "panel_control",
-        "layer0.texture": "One Dark/assets/find_panel_bg.png",
-        "layer0.inner_margin": [0, 1, 0, 0],
         "content_margin": [5, 2, 2, 2],
-        "layer0.opacity": 1.0
+        "layer0.texture": "One Dark/assets/find_panel_bg.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [0, 1, 0, 0]
     },
-    // FIND PANEL - TEXT BUTTON LABEL
+    // Find panel - text button label
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
@@ -153,7 +142,7 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
-    // FIND PANEL - TEXT BUTTON LABEL : HOVER
+    // Find panel - text button label : hover
     {
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
@@ -161,7 +150,7 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
-    // FIND PANEL - TEXT BUTTON LABEL : PRESSED
+    // Find panel - text button label : pressed
     {
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["pressed"]}],
@@ -169,13 +158,13 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
-    // FIND PANEL - TEXT BUTTON BACKGROUND
+    // Find panel - text button background
     {
         "class": "button_control",
         "content_margin": [10, 9, 10 , 9],
         "min_size": [75, 0],
         "layer0.texture": "One Dark/assets/find_panel_button.png",
-        "layer1.texture": "One Dark/assets/find_panel_button_over.png",
+        "layer1.texture": "One Dark/assets/find_panel_button_hover.png",
         "layer2.texture": "One Dark/assets/find_panel_button_pressed.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
@@ -184,23 +173,26 @@
         "layer1.inner_margin": [3, 4],
         "layer2.inner_margin": [3, 4]
     },
-    // FIND PANEL - TEXT BUTTON : HOVER
+    // Find panel - text button : hover
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer1.opacity": 1.0
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0,
     },
-    // FIND PANEL - TEXT BUTTON : PRESSED
+    // Find panel - text button : pressed
     {
         "class": "button_control",
         "attributes": ["pressed"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 0.0,
         "layer2.opacity": 1.0
     },
-    // FIND PANEL - MIDDLE ICON BUTTON
+    // Find panel - middle icon button
     {
         "class": "icon_button_control",
         "layer0.texture": "One Dark/assets/find_panel_middle_button.png",
-        "layer1.texture": "One Dark/assets/find_panel_middle_button_over.png",
+        "layer1.texture": "One Dark/assets/find_panel_middle_button_hover.png",
         "layer2.texture": "One Dark/assets/find_panel_middle_button_pressed.png",
         "layer3.texture": "One Dark/assets/find_panel_middle_button_selected.png",
         "layer0.inner_margin": [3, 4],
@@ -213,46 +205,46 @@
         "layer3.opacity": 0.0,
         "content_margin": [12, 8, 12, 7]
     },
-    // FIND PANEL - LEFT ICON BUTTON
+    // Find panel - left icon button
     {
         "class": "icon_button_control",
         "attributes": ["left"],
         "layer0.texture": "One Dark/assets/find_panel_left_button.png",
-        "layer1.texture": "One Dark/assets/find_panel_left_button_over.png",
+        "layer1.texture": "One Dark/assets/find_panel_left_button_hover.png",
         "layer2.texture": "One Dark/assets/find_panel_left_button_pressed.png",
         "layer3.texture": "One Dark/assets/find_panel_left_button_selected.png"
     },
-    // FIND PANEL - RIGHT ICON BUTTON
+    // Find panel - right icon button
     {
         "class": "icon_button_control",
         "attributes": ["right"],
         "layer0.texture": "One Dark/assets/find_panel_right_button.png",
-        "layer1.texture": "One Dark/assets/find_panel_right_button_over.png",
+        "layer1.texture": "One Dark/assets/find_panel_right_button_hover.png",
         "layer2.texture": "One Dark/assets/find_panel_right_button_pressed.png",
         "layer3.texture": "One Dark/assets/find_panel_right_button_selected.png"
     },
-    // FIND PANEL - ICON BUTTON
+    // Find panel - icon button
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
         "layer0.texture": "One Dark/assets/find_panel_button.png",
-        "layer1.texture": "One Dark/assets/find_panel_button_over.png",
+        "layer1.texture": "One Dark/assets/find_panel_button_hover.png",
         "layer2.texture": "One Dark/assets/find_panel_button_pressed.png",
         "layer3.texture": "One Dark/assets/find_panel_button_selected.png"
     },
-    // FIND PANEL - ICON BUTTON : HOVER
+    // Find panel - icon button : hover
     {
         "class": "icon_button_control",
         "attributes": ["hover"],
         "layer1.opacity": 1.0
     },
-    // FIND PANEL - ICON BUTTON : PRESSED
+    // Find panel - icon button : pressed
     {
         "class": "icon_button_control",
         "attributes": ["pressed"],
         "layer2.opacity": 1.0
     },
-    // FIND PANEL - ICON BUTTON : SELECTED
+    // Find panel - icon button : selected
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
@@ -262,264 +254,261 @@
     // FIND PANEL - CLOSE BUTTON
     {
         "class": "panel_close_button",
+        "content_margin": [0, 0],
         "layer0.opacity": 0.0,
-        "layer1.opacity": 0.0,
-        "content_margin": [0, 0]
+        "layer1.opacity": 0.0
     },
-    // FIND PANEL - REGEX ICON
+    // Find panel - regex icon
     {
         "class": "icon_regex",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_regex.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - REGEX ICON : HOVER
+    // Find panel - regex icon : hover
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - REGEX ICON : PRESSED
+    // Find panel - regex icon : pressed
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - REGEX ICON : SELECTED
+    // Find panel - regex icon : selected
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - CASE ICON
+    // Find panel - case icon
     {
         "class": "icon_case",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_case.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - CASE ICON : HOVER
+    // Find panel - case icon : hover
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - CASE ICON : PRESSED
+    // Find panel - case icon : pressed
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - CASE ICON : SELECTED
+    // Find panel - case icon : selected
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - HIGHLIGHT ICON
+    // Find panel - highlight icon
     {
         "class": "icon_highlight",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_highlight.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - HIGHLIGHT ICON : HOVER
+    // Find panel - highlight icon : hover
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - HIGHLIGHT ICON : PRESSED
+    // Find panel - highlight icon : pressed
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - HIGHLIGHT ICON : SELECTED
+    // Find panel - highlight icon : selected
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - IN SELECTION ICON
+    // Find panel - in selection icon
     {
         "class": "icon_in_selection",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_in_selection.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - IN SELECTION ICON : HOVER
+    // Find panel - in selection icon : hover
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - IN SELECTION ICON : PRESSED
+    // Find panel - in selection icon : pressed
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - IN SELECTION ICON : SELECTED
+    // Find panel - in selection icon : selected
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - REVERSE ICON
+    // Find panel - reverse icon
     {
         "class": "icon_reverse",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_reverse.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - REVERSE ICON : HOVER
+    // Find panel - reverse icon : hover
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - REVERSE ICON : PRESSED
+    // Find panel - reverse icon : pressed
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - REVERSE ICON : SELECTED
+    // Find panel - reverse icon : selected
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - WHOLE WORD ICON
+    // Find panel - whole word icon
     {
         "class": "icon_whole_word",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_whole_word.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - WHOLE WORD ICON : HOVER
+    // Find panel - whole word icon : hover
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - WHOLE WORD ICON : PRESSED
+    // Find panel - whole word icon : pressed
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - WHOLE WORD ICON : SELECTED
+    // Find panel - whole word icon : selected
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - WRAP ICON
+    // Find panel - wrap icon
     {
         "class": "icon_wrap",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_wrap.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - WRAP ICON : HOVER
+    // Find panel - wrap icon : hover
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - WRAP ICON : PRESSED
+    // Find panel - wrap icon : pressed
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - WRAP ICON : SELECTED
+    // Find panel - wrap icon : selected
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - PRESERVE CASE ICON
+    // Find panel - preserve case icon
     {
         "class": "icon_preserve_case",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_preserve_case.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - PRESERVE CASE ICON : HOVER
+    // Find panel - preserve case icon : hover
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - PRESERVE CASE ICON : PRESSED
+    // Find panel - preserve case icon : pressed
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - PRESERVE CASE ICON : SELECTED
+    // Find panel - preserve case icon : selected
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - CONTEXT ICON
+    // Find panel - context icon
     {
         "class": "icon_context",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_context.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - CONTEXT ICON : HOVER
+    // Find panel - context icon : hover
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - CONTEXT ICON : PRESSED
+    // Find panel - context icon : pressed
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - CONTEXT ICON : SELECTED
+    // Find panel - context icon : selected
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - USE BUFFER ICON
+    // Find panel - use buffer icon
     {
         "class": "icon_use_buffer",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/find_panel_use_buffer.png",
-        "layer0.opacity": 0.8,
-        "content_margin": [8, 8]
+        "layer0.opacity": 0.8
     },
-    // FIND PANEL - USE BUFFER ICON : HOVER
+    // Find panel - use buffer icon : hover
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - USE BUFFER ICON : PRESSED
+    // Find panel - use buffer icon : pressed
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["pressed"]}],
         "layer0.opacity": 1.0
     },
-    // FIND PANEL - USE BUFFER ICON : SELECTED
+    // Find panel - use buffer icon : selected
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // GOTO PANEL
+    // Goto panel
     {
         "class": "quick_panel",
         "row_padding": [10, 15],
@@ -527,7 +516,7 @@
         "layer0.opacity": 1.0,
         "dark_content": false
     },
-    // GOTO PANEL - ROW
+    // Goto panel - row
     {
         "class": "quick_panel_row",
         "layer0.texture": "One Dark/assets/goto_panel_row.png",
@@ -537,13 +526,13 @@
         "layer0.inner_margin": [1, 0, 1, 1],
         "layer1.inner_margin": [1, 0, 1, 1]
     },
-    // GOTO PANEL : SELECTED
+    // Goto panel : selected
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer1.opacity": 1.0
     },
-    // GOTO PANEL - LABEL
+    // Goto panel - label
     {
         "class": "quick_panel_label",
         "fg": [157, 165, 180, 255],
@@ -551,7 +540,7 @@
         "selected_fg": [212, 215, 221, 255],
         "selected_match_fg": [215, 218, 224, 255]
     },
-    // GOTO PANEL - PATH LABEL
+    // Goto panel - path label
     {
         "class": "quick_panel_path_label",
         "fg": [107, 117, 130, 255],
@@ -559,165 +548,134 @@
         "selected_fg": [132, 136, 143, 255],
         "selected_match_fg": [215, 218, 224, 255]
     },
-    // GOTO PANEL - SCORE LABEL
+    // Goto panel - score label
     {
         "class": "quick_panel_score_label",
         "fg": [215, 218, 224, 255],
         "selected_fg": [215, 218, 224, 255]
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // LAYOUT - EMPTY WINDOW BACKGROUND
+    // Layout - empty window background
     {
         "class": "sheet_container_control",
         "layer0.tint": [33, 37, 43],
         "layer0.opacity": 1.0
     },
-    // LAYOUT - GRID BORDER
+    // Layout - grid border
     {
         "class": "grid_layout_control",
         "border_size": 1,
         "border_color": [24, 26, 31]
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // MINI MAP
+    // Mini map
     {
         "class": "minimap_control",
         "settings": ["always_show_minimap_viewport"],
         "viewport_color": [255, 255, 255, 15],
         "viewport_opacity": 1.0
     },
-    // MINI MAP : HIDDEN
+    // Mini map : hidden
     {
         "class": "minimap_control",
         "settings": ["!always_show_minimap_viewport"],
         "viewport_color": [255, 255, 255, 15],
         "viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" }
     },
-    // MINI MAP : HOVER
+    // Mini map : hover
     {
         "class": "minimap_control",
         "attributes": ["hover"],
         "settings": ["!always_show_minimap_viewport"],
         "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" }
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // PROGRESS BAR - BACKGROUND ?
+    // Progress bar - background ?
     {
         "class": "progress_bar_control",
         "layer0.tint": [33, 37, 43],
         "layer0.opacity": 1.0
     },
-     // PROGRESS BAR - GAUGE ?
+    // Progress bar - gauge ?
     {
         "class": "progress_gauge_control",
         "layer0.tint": [82, 139, 255],
         "layer0.opacity": 1.0,
         "content_margin": [0, 6]
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // SCROLLBAR - VERTICAL BACKGROUND
+    // Scrollbar - vertical background
     {
         "class": "scroll_bar_control",
         "layer0.tint": [33, 37, 43],
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 6],
         "blur": false
     },
-    // SCROLLBAR - HORIZONTAL BACKGROUND
+    // Scrollbar - horizontal background
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.tint": [33, 37, 43],
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 0],
         "blur": false
     },
-    // SCROLLBAR - CORNER BACKGROUND
+    // Scrollbar - corner background
     {
         "class": "scroll_corner_control",
         "layer0.tint": [33, 37, 43],
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [1, 1]
     },
-    // SCROLLBAR - VERTICAL THUMB
+    // Scrollbar - vertical thumb
     {
         "class": "puck_control",
+        "content_margin": [4, 4],
         "layer0.texture": "One Dark/assets/scrollbar_thumb_vertical.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 10],
-        "content_margin": [8, 12],
+        "layer0.inner_margin": [0, 3],
         "blur": false
     },
-    // SCROLLBAR - HORIZONTAL THUMB
+    // Scrollbar - horizontal thumb
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "One Dark/assets/scrollbar_thumb_horizontal.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [10, 0],
-        "content_margin": [12, 8],
-        "blur": false
+        "layer0.inner_margin": [3, 0],
     },
-    // SCROLLBAR - OVERLAY
+    // Scrollbar - overlay
     {
         "class": "scroll_area_control",
         "layer0.tint": [0, 0, 0, 0],
         "overlay": true
     },
-    // SCROLLBAR - NO OVERLAY
+    // Scrollbar - no overlay
     {
         "class": "scroll_area_control",
         "settings": ["!overlay_scroll_bars"],
         "overlay": false
     },
-    // SCROLLBAR - OVERLAY VERTICAL BACKGROUND
+    // Scrollbar - overlay vertical background
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "layer0.tint": [0, 0, 0, 0],
-        "layer0.inner_margin": [0, 5],
         "blur": true
     },
-    // SCROLLBAR - OVERLAY HORIZONTAL BACKGROUND
+    // Scrollbar - overlay horizontal background
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
         "layer0.tint": [0, 0, 0, 0],
-        "layer0.inner_margin": [5, 0], 
         "blur": true
     },
-    // SCROLLBAR - OVERLAY VERTICAL THUMB
+    // Scrollbar - overlay vertical thumb
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "One Dark/assets/scrollbar_thumb_vertical.png",
-        "layer0.inner_margin": [0, 5],
-        "content_margin": [8, 12],
         "blur": true
     },
-    // SCROLLBAR - OVERLAY HORIZONTAL THUMB
+    // Scrollbar - overlay horizontal thumb
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "One Dark/assets/scrollbar_thumb_horizontal.png",
-        "layer0.inner_margin": [5, 0],
-        "content_margin": [12, 8],
         "blur": true
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // STATUS BAR - LABEL
+    // Status bar - label
     {
         "class": "label_control",
         "parents": [{ "class": "status_bar" }],
@@ -725,40 +683,37 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
-    // STATUS BAR - BACKGROUND
+    // Status bar - background
     {
         "class": "status_bar",
+        "content_margin": [6, 6, 4, 5],
         "layer0.texture": "One Dark/assets/find_panel_bg.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 1, 0, 0],
-        "content_margin": [6, 6, 4, 5]
+        "layer0.inner_margin": [0, 1, 0, 0]
     },
-    // STATUS BAR - MARGIN
+    // Status bar - margin
     {
         "class": "status_container",
         "content_margin": [0, 2, 0, 3]
     },
-    // STATUS BAR - TEXT BUTTON
+    // Status bar - text button
     {
         "class": "status_button",
+        "content_margin": [20, 2, 5, 3],
         "layer0.tint": [125, 125, 125, 0],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [1, 0, 0, 0],
-        "content_margin": [20, 2, 5, 3],
         "min_size": [0, 0]
     },
-    // STATUS BAR - ICON BUTTON
+    // Status bar - icon button
     {
         "class": "panel_button_control",
+        "content_margin": [12, 8],
         "layer0.texture": "One Dark/assets/status_bar_panels.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [12, 8]
+        "layer0.opacity": 1.0
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // TAB PANEL - BACKGROUND
+    // Tab panel - background
     {
         "class": "tabset_control",
         "layer0.texture": "One Dark/assets/tab_panel_bg.png",
@@ -769,13 +724,13 @@
         "tab_height": 42,
         "mouse_wheel_switch": false
     },
-    // TAB PANEL - MOUSE WHEEL SWITCH
+    // Tab panel - mouse wheel switch
     {
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs", "!enable_tab_scrolling"],
         "mouse_wheel_switch": true
     },
-    // SCROLL TAB - LEFT BUTTON
+    // Scroll tab - left button
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [8, 8],
@@ -786,14 +741,14 @@
         "layer0.inner_margin": 0,
         "layer1.inner_margin": 0
     },
-    // SCROLL TAB - LEFT BUTTON : HOVER
+    // Scroll tab - left button : hover
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
-    // SCROLL TAB - RIGHT BUTTON
+    // Scroll tab - right button
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [8, 8],
@@ -804,34 +759,34 @@
         "layer0.inner_margin": 0,
         "layer1.inner_margin": 0
     },
-    // SCROLL TAB - RIGHT BUTTON : HOVER
+    // Scroll tab - right button : hover
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
-    // TAB : UNSELECTED
+    // Tab : unselected
     {
         "class": "tab_control",
+        "content_margin": [24, 8, 10, 2],
         "layer0.texture": "One Dark/assets/tab_unselected.png",
         "layer1.texture": "One Dark/assets/tab_selected.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer0.inner_margin": [3, 9, 2, 0],
         "layer1.inner_margin": [3, 9, 2, 0],
-        "content_margin": [24, 8, 10, 2],
         "max_margin_trim": 6,
         "hit_test_level": 0.4
     },
-    // TAB : SELECTED
+    // Tab : selected
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0,
     },
-    // TAB - LABEL
+    // Tab - label
     {
         "class": "tab_label",
         "fg": [255, 255, 255, 140],
@@ -839,7 +794,7 @@
         "shadow_offset": [0, 0],
         "font.italic": false
     },
-    // TAB - LABEL : SELECTED
+    // Tab - label : selected
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
@@ -847,7 +802,7 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
-    // TAB - LABEL : DIRTY
+    // Tab - label : dirty
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control"}],
@@ -855,13 +810,13 @@
         "settings": ["highlight_modified_tabs"],
         "fg": [255, 255, 255]
     },
-    // TAB - LABEL : TRANSIENT
+    // Tab - label : transient
     {
         "class": "tab_label",
         "attributes": ["transient"],
         "font.italic": true
     },
-    // TAB - CLOSE BUTTON
+    // Tab - close button
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
@@ -873,74 +828,74 @@
         "layer2.opacity": 0.0,
         "layer3.opacity": 0.0
     },
-    // TAB - CLOSE BUTTON : VISIBLE
+    // Tab - close button : visible
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8, 8]
     },
-    // TAB - CLOSE BUTTON : TAB DIRTY
+    // Tab - close button : tab dirty
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
-    // TAB - CLOSE BUTTON : TAB HOVER
+    // Tab - close button : tab hover
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "layer0.opacity": { "target": 0.6, "speed": 6.0, "interpolation": "smoothstep" },
         "layer1.opacity": 0.0
     },
-    // TAB - CLOSE BUTTON : TAB HOVER & DIRTY
+    // Tab - close button : tab hover & dirty
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
-    // TAB - CLOSE BUTTON : HOVER
+    // Tab - close button : hover
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
         "layer0.opacity": 0.4
     },
-    // TAB - CLOSE BUTTON : PRESSED
+    // Tab - close button : pressed
     {
         "class": "tab_close_button",
         "attributes": ["pressed"],
         "layer0.opacity": 0.2
     },
-    // TAB - CLOSE BUTTON : SELECTED TAB HOVER
+    // Tab - close button : selected tab hover
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected", "hover"]}],
         "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
         "layer1.opacity": 0.0
     },
-    // TAB - CLOSE BUTTON : SELECTED TAB HOVER & DIRTY
+    // Tab - close button : selected tab hover & dirty
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected", "dirty", "hover"]}],
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
-    // TAB - CLOSE BUTTON : SELECTED TAB & HOVER
+    // Tab - close button : selected tab & hover
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "attributes": ["hover"],
         "layer0.opacity": 0.8
     },
-    // TAB - CLOSE BUTTON : SELECTED TAB & PRESSED
+    // Tab - close button : selected tab & pressed
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "attributes": ["pressed"],
         "layer0.opacity": 0.6
     },
-    // SHOW TABS - DROPDOWN BUTTON
+    // Show tabs - dropdown button
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
@@ -951,33 +906,27 @@
         "layer0.inner_margin": 0,
         "layer1.inner_margin": 0
     },
-    // SHOW TABS - DROPDOWN BUTTON : HOVER
+    // Show tabs - dropdown button : hover
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // TOOLTIP - BACKGROUND
+    // Tooltip - background
     {
         "class": "tool_tip_control",
+        "content_margin": [10,10],
         "layer0.texture": "One Dark/assets/tooltip_bg.png",
         "layer0.inner_margin": [3, 3],
-        "layer0.opacity": 1.0,
-        "content_margin": [10,10]
+        "layer0.opacity": 1.0
     },
-    // TOOLTIP - LABEL
+    // Tooltip - label
     {
         "class": "tool_tip_label_control",
         "color": [255, 255, 255]
     },
-
-    /* -------------------------------------------------------------------------------- */
-
-    // TREE VIEW - BACKGROUND AND PADDING
+    // Tree view - background and padding
     {
         "class": "sidebar_tree",
         "row_padding": [8, 6],
@@ -988,32 +937,32 @@
         "layer0.opacity": 1.0,
         "dark_content": false
     },
-    // TREE VIEW - MARGIN
+    // Tree view - margin
     {
         "class": "sidebar_container",
+        "content_margin": [0, 0, 1, 0],
         "layer0.tint": [24, 26, 31],
         "layer0.opacity": 1.0,
-        "layer0.draw_center": false,
-        "content_margin": [0, 0, 1, 0]
+        "layer0.draw_center": false
     },
-    // TREE VIEW - HEADING
+    // Tree view - heading
     {
         "class": "sidebar_heading",
         "color": [215, 218, 224],
         "font.bold": true,
         "shadow_color": [0, 0, 0, 0],
-        "shadow_offset": [0, 0],
+        "shadow_offset": [0, 0]
     },
-    // TREE VIEW - DISCLOSURE BUTTON
+    // Tree view - disclosure button
     {
         "class": "disclosure_button_control",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/assets/arrow_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "layer1.texture": "One Dark/assets/arrow_right.png",
         "layer1.opacity": 0.0,
-        "layer1.inner_margin": 0,
-        "content_margin": [8, 8]
+        "layer1.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
@@ -1031,46 +980,46 @@
         "layer0.texture": "One Dark/assets/arrow_down.png",
         "layer1.texture": "One Dark/assets/arrow_down.png"
     },
-    // TREE VIEW - ROW
+    // Tree view - row
     {
         "class": "tree_row",
         "layer0.tint": [49, 54, 63],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
-    // TREE VIEW - ROW SELECTED
+    // Tree view - row selected
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.opacity": 1.0
     },
-    // TREE VIEW - CLOSE BUTTON
+    // Tree view - close button
     {
         "class": "close_button",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/assets/close.png",
         "layer1.texture": "One Dark/assets/dirty.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer0.inner_margin": 0,
-        "layer1.inner_margin": 0,
-        "content_margin": [8, 8]
+        "layer1.inner_margin": 0
     },
-    // TREE VIEW - CLOSE BUTTON DIRTY
+    // Tree view - close button dirty
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "layer0.texture": "One Dark/assets/close.png",
         "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0,
+        "layer1.opacity": 1.0
     },
-    // TREE VIEW - CLOSE BUTTON HOVER
+    // Tree view - close button hover
     {
         "class": "close_button",
         "attributes": ["hover"],
         "layer0.opacity": 0.5,
-        "layer1.opacity": 0.0,
+        "layer1.opacity": 0.0
     },
-    // TREE VIEW - LABEL
+    // Tree view - label
     {
         "class": "sidebar_label",
         "color": [157, 165, 180],
@@ -1079,7 +1028,7 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
-    // TREE VIEW - LABEL : SELECTED
+    // Tree view - label : selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
@@ -1087,34 +1036,34 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
-    // TREE VIEW - LABEL : BOLD
+    // Tree view - label : bold
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
         "font.bold": false
     },
-    // TREE VIEW - LABEL : TRANSIENT
+    // Tree view - label : transient
     {
         "class": "sidebar_label",
         "attributes": ["transient"],
         "font.italic": true
     },
-    // TREE VIEW - FILE ICON
+    // Tree view - file icon
     {
         "class": "icon_file_type",
+        "content_margin": [8, 8],
         // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "layer0.opacity": 1.0
     },
-    // TREE VIEW - FOLDER ICON
+    // Tree view - folder icon
     {
         "class": "icon_folder",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/tree_view_folder.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "layer0.opacity": 1.0
     },
-    // TREE VIEW - FOLDER ICONS : EXPANDED
+    // Tree view - folder icons : expanded
     {
         "class": "icon_folder",
         "parents":
@@ -1123,9 +1072,10 @@
         ],
         "layer0.texture": "One Dark/icons/tree_view_folder_open.png"
     },
-    // TREE VIEW - FOLDER LOADING : KEYFRAMES
+    // Tree view - folder loading : keyframes
     {
         "class": "icon_folder_loading",
+        "content_margin": [8, 8],
         "layer0.texture":
         {
             "keyframes":
@@ -1142,15 +1092,13 @@
             "loop": true,
             "frame_time": 0.075,
         },
-
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "layer0.opacity": 1.0
     },
-    // TREE VIEW - FOLDER DUP ICON
+    // Tree view - folder dup icon
     {
         "class": "icon_folder_dup",
+        "content_margin": [8, 8],
         "layer0.texture": "One Dark/icons/tree_view_folder_dup.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "layer0.opacity": 1.0
     }
 ]
