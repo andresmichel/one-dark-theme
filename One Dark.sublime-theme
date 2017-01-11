@@ -108,8 +108,8 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "One Dark/assets/arrow_down.png",
-        "layer1.texture": "One Dark/assets/arrow_down.png",
+        "layer0.texture": "One Dark/assets/dropdown_arrow.png",
+        "layer1.texture": "One Dark/assets/dropdown_arrow.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
@@ -117,7 +117,7 @@
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer1.opacity": 1.0
+        "layer1.opacity": 0.0
     },
     // Find panel & status button - Label
     {
@@ -694,16 +694,16 @@
     // Status bar - Margin
     {
         "class": "status_container",
-        "content_margin": [0, 2, 0, 3]
+        "content_margin": [0, 4, 0, 3]
     },
     // Status bar - Text button
     {
         "class": "status_button",
-        "content_margin": [20, 2, 5, 3],
+        "content_margin": [20, 4, 5, 3],
         "layer0.tint": [125, 125, 125, 0],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
-        "layer0.inner_margin": [1, 0, 0, 0],
+        "layer0.inner_margin": [0, 0, 0, 0],
         "min_size": [0, 0]
     },
     // Status bar - Icon button
@@ -734,8 +734,8 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [8, 8],
-        "layer0.texture": "One Dark/assets/arrow_left.png",
-        "layer1.texture": "One Dark/assets/arrow_left.png",
+        "layer0.texture": "One Dark/assets/scroll_tabs_left.png",
+        "layer1.texture": "One Dark/assets/scroll_tabs_left.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer0.inner_margin": 0,
@@ -758,8 +758,8 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [8, 8],
-        "layer0.texture": "One Dark/assets/arrow_right.png",
-        "layer1.texture": "One Dark/assets/arrow_right.png",
+        "layer0.texture": "One Dark/assets/scroll_tabs_right.png",
+        "layer1.texture": "One Dark/assets/scroll_tabs_right.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer0.inner_margin": 0,
@@ -911,8 +911,8 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
-        "layer0.texture": "One Dark/assets/arrow_down.png",
-        "layer1.texture": "One Dark/assets/arrow_down.png",
+        "layer0.texture": "One Dark/assets/dropdown_arrow.png",
+        "layer1.texture": "One Dark/assets/dropdown_arrow.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer0.inner_margin": 0,
@@ -948,7 +948,7 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8, 6],
-        "indent": 20,
+        "indent": 17,
         "indent_offset": 15,
         "indent_top_level": false,
         "layer0.tint": [33, 37, 43],
