@@ -718,9 +718,9 @@
         "class": "tabset_control",
         "layer0.texture": "One Dark/assets/tab_panel_bg.png",
         "layer0.opacity": 1.0,
-        "tab_overlap": 1,
-        "tab_width": 180,
-        "tab_min_width": 48,
+        "tab_overlap": 0,
+        "tab_width": 264,
+        "tab_min_width": 107,
         "tab_height": 42,
         "mouse_wheel_switch": false
     },
@@ -781,7 +781,7 @@
     // Tab : unselected
     {
         "class": "tab_control",
-        "content_margin": [24, 8, 10, 2],
+        "content_margin": [33, 3, 9, 0],
         "layer0.texture": "One Dark/assets/tab_unselected.png",
         "layer1.texture": "One Dark/assets/tab_selected.png",
         "layer0.opacity": 1.0,
@@ -844,7 +844,7 @@
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8, 8]
+        "content_margin": [9, 9]
     },
     // Tab - Close button : tab dirty
     {
@@ -857,7 +857,8 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "layer0.opacity": { "target": 0.6, "speed": 6.0, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+        "layer0.texture": "One Dark/assets/close_unselected.png",
         "layer1.opacity": 0.0
     },
     // Tab - Close button : tab hover & dirty
@@ -871,13 +872,13 @@
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.opacity": 0.4
+        "layer0.texture": "One Dark/assets/close_hover.png",
     },
     // Tab - Close button : pressed
     {
         "class": "tab_close_button",
         "attributes": ["pressed"],
-        "layer0.opacity": 0.2
+        "layer0.texture": "One Dark/assets/close_pressed.png",
     },
     // Tab - Close button : selected tab hover
     {
@@ -898,14 +899,14 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "attributes": ["hover"],
-        "layer0.opacity": 0.8
+        "layer0.texture": "One Dark/assets/close_hover.png",
     },
     // Tab - Close button : selected tab & pressed
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "attributes": ["pressed"],
-        "layer0.opacity": 0.6
+        "layer0.texture": "One Dark/assets/close_pressed.png",
     },
     // Show tabs - Dropdown button
     {
