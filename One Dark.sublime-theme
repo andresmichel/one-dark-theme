@@ -833,7 +833,7 @@
         "class": "tab_close_button",
         "content_margin": [0, 0],
         "layer0.inner_margin": 0,
-        "layer0.texture": "One Dark/assets/close.png",
+        "layer0.texture": "One Dark/assets/close_unselected.png",
         "layer1.texture": "One Dark/assets/dirty.png",
         "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
         "layer1.opacity": 0.0,
@@ -885,6 +885,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected", "hover"]}],
         "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+        "layer0.texture": "One Dark/assets/close.png",
         "layer1.opacity": 0.0
     },
     // Tab - Close button : selected tab hover & dirty
