@@ -948,9 +948,9 @@
     // Tree view - Background and padding
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 6],
+        "row_padding": [8, 5],
         "indent": 17,
-        "indent_offset": 15,
+        "indent_offset": 14,
         "indent_top_level": false,
         "layer0.tint": [33, 37, 43],
         "layer0.opacity": 1.0,
@@ -969,6 +969,7 @@
         "class": "sidebar_heading",
         "color": [215, 218, 224],
         "font.bold": true,
+        "font.size": 12,
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
@@ -1043,6 +1044,7 @@
         "class": "sidebar_label",
         "color": [157, 165, 180],
         "font.bold": false,
+        "font.size": 12,
         "font.italic": false,
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
