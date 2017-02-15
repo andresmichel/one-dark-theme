@@ -110,14 +110,14 @@
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/assets/dropdown_arrow.png",
         "layer1.texture": "Theme - One Dark/assets/dropdown_arrow.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.6,
         "layer1.opacity": 0.0
     },
     // Input field - Dropdown button : hover
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer1.opacity": 0.0
+        "layer0.opacity": 1.0
     },
     // Find panel & status button - Label
     {
@@ -140,7 +140,8 @@
         "parents": [{"class": "button_control"}],
         "color": [157, 165, 180],
         "shadow_color": [0, 0, 0, 0],
-        "shadow_offset": [0, 0]
+        "shadow_offset": [0, 0],
+        "font.size": 12.5
     },
     // Find panel - Text button label : hover
     {
@@ -178,7 +179,7 @@
         "class": "button_control",
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0,
+        "layer1.opacity": 1.0
     },
     // Find panel - Text button : pressed
     {
@@ -251,7 +252,7 @@
         "layer3.opacity": 1.0
     },
 
-    // FIND PANEL - CLOSE BUTTON
+    // Find panel - Close button
     {
         "class": "panel_close_button",
         "content_margin": [0, 0],
@@ -263,7 +264,7 @@
         "class": "icon_regex",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_regex.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Regex icon : hover
     {
@@ -288,7 +289,7 @@
         "class": "icon_case",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_case.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Case icon : hover
     {
@@ -313,7 +314,7 @@
         "class": "icon_highlight",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_highlight.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Highlight icon : hover
     {
@@ -338,7 +339,7 @@
         "class": "icon_in_selection",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_in_selection.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - In selection icon : hover
     {
@@ -363,7 +364,7 @@
         "class": "icon_reverse",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_reverse.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Reverse icon : hover
     {
@@ -388,7 +389,7 @@
         "class": "icon_whole_word",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_whole_word.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Whole word icon : hover
     {
@@ -413,7 +414,7 @@
         "class": "icon_wrap",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_wrap.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Wrap icon : hover
     {
@@ -438,7 +439,7 @@
         "class": "icon_preserve_case",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_preserve_case.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Preserve case icon : hover
     {
@@ -463,7 +464,7 @@
         "class": "icon_context",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_context.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Context icon : hover
     {
@@ -488,7 +489,7 @@
         "class": "icon_use_buffer",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - One Dark/icons/find_panel_use_buffer.png",
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.6
     },
     // Find panel - Use buffer icon : hover
     {
@@ -535,24 +536,24 @@
     // Goto panel - Label
     {
         "class": "quick_panel_label",
-        "fg": [157, 165, 180, 255],
-        "match_fg": [215, 218, 224, 255],
-        "selected_fg": [212, 215, 221, 255],
-        "selected_match_fg": [215, 218, 224, 255]
+        "fg": [157, 165, 180],
+        "match_fg": [117, 158, 242],
+        "selected_fg": [215, 218, 224],
+        "selected_match_fg": [117, 158, 242]
     },
     // Goto panel - Path label
     {
         "class": "quick_panel_path_label",
-        "fg": [107, 117, 130, 255],
-        "match_fg": [215, 218, 224, 255],
-        "selected_fg": [132, 136, 143, 255],
-        "selected_match_fg": [215, 218, 224, 255]
+        "fg": [107, 117, 126],
+        "match_fg": [117, 158, 242],
+        "selected_fg": [136, 141, 150],
+        "selected_match_fg": [117, 158, 242]
     },
     // Goto panel - Score label
     {
         "class": "quick_panel_score_label",
-        "fg": [215, 218, 224, 255],
-        "selected_fg": [215, 218, 224, 255]
+        "fg": [157, 165, 180],
+        "selected_fg": [215, 218, 224]
     },
     // Layout - Empty window background
     {
@@ -680,7 +681,8 @@
         "parents": [{ "class": "status_bar" }],
         "color": [157, 165, 180],
         "shadow_color": [0, 0, 0, 0],
-        "shadow_offset": [0, 0]
+        "shadow_offset": [0, 0],
+        "font.size": 11.5,
     },
     // Status bar - Background
     {
@@ -800,10 +802,11 @@
     // Tab - Label
     {
         "class": "tab_label",
-        "fg": [255, 255, 255, 140],
+        "fg": [157, 165, 180, 154],
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
-        "font.italic": false
+        "font.italic": false,
+        "font.size": 11.7,
     },
     // Tab - Label : selected
     {
@@ -1044,7 +1047,7 @@
         "class": "sidebar_label",
         "color": [157, 165, 180],
         "font.bold": false,
-        "font.size": 12,
+        "font.size": 11.5,
         "font.italic": false,
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]

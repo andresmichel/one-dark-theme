@@ -26,11 +26,16 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 
 ## Recommended settings
 ```json
+"indent_guide_options":
+[
+	"draw_normal",
+	"draw_active"
+],
 "line_padding_bottom": 1,
 "line_padding_top": 1,
-"tree_animation_enabled": false,
-"indent_guide_options" : [ "draw_normal", "draw_active" ],
 "margin": 0,
+"overlay_scroll_bars": "enabled",
+"animation_enabled": false,
 ```
 
 ## Optional settings
