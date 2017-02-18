@@ -71,14 +71,18 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "Theme - One Dark/assets/goto_panel_row.png",
+        "layer1.texture": "Theme - One Dark/assets/goto_panel_row_selected.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [1, 0, 1, 1]
+        "layer1.opacity": 0.0,
+        "layer0.inner_margin": [1, 1, 1, 0],
+        "layer1.inner_margin": [1, 1, 1, 0]
     },
     // command palette panel - row selected
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - One Dark/assets/goto_panel_row_selected.png"
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
     },
     // dialog ?
     {
@@ -141,7 +145,7 @@
         "color": [157, 165, 180],
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
-        "font.size": 12.5
+        "font.size": 12
     },
     // find panel - text button label hover
     {
@@ -524,8 +528,8 @@
         "layer1.texture": "Theme - One Dark/assets/goto_panel_row_selected.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
-        "layer0.inner_margin": [1, 0, 1, 1],
-        "layer1.inner_margin": [1, 0, 1, 1]
+        "layer0.inner_margin": [1, 1, 1, 0],
+        "layer1.inner_margin": [1, 1, 1, 0]
     },
     // goto panel selected
     {
@@ -661,12 +665,12 @@
         "color": [157, 165, 180],
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
-        "font.size": 11.5,
+        "font.size": 11,
     },
     // status bar - background
     {
         "class": "status_bar",
-        "content_margin": [6, 6, 4, 5],
+        "content_margin": [9, 6, 4, 6],
         "layer0.texture": "Theme - One Dark/assets/find_panel_bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 1, 0, 0]
@@ -785,13 +789,13 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
         "font.italic": false,
-        "font.size": 11.7,
+        "font.size": 12,
     },
     // tab - label selected
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [255, 255, 255],
+        "fg": [215, 218, 224],
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
@@ -994,7 +998,7 @@
         "class": "tree_row",
         "layer0.tint": [44, 49, 58],
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1]
+        "layer0.inner_margin": [1, 1],
     },
     // tree view - row selected
     {
@@ -1033,7 +1037,7 @@
         "class": "sidebar_label",
         "color": [157, 165, 180],
         "font.bold": false,
-        "font.size": 11.5,
+        "font.size": 12,
         "font.italic": false,
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
