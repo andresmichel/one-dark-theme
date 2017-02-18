@@ -26,11 +26,6 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 
 ## Recommended settings
 ```json
-"indent_guide_options":
-[
-	"draw_normal",
-	"draw_active"
-],
 "line_padding_bottom": 1,
 "line_padding_top": 1,
 "margin": 0,
