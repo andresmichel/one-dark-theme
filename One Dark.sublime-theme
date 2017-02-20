@@ -574,23 +574,21 @@
     // mini map
     {
         "class": "minimap_control",
-        "settings": ["always_show_minimap_viewport"],
-        "viewport_color": [255, 255, 255, 15],
+        "viewport_color": [153, 187, 255, 10],
         "viewport_opacity": 1.0
     },
     // mini map hidden
     {
         "class": "minimap_control",
         "settings": ["!always_show_minimap_viewport"],
-        "viewport_color": [255, 255, 255, 15],
-        "viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" }
+        "viewport_opacity": 0.0
     },
     // mini map hover
     {
         "class": "minimap_control",
         "attributes": ["hover"],
-        "settings": ["!always_show_minimap_viewport"],
-        "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" }
+        "viewport_color": [153, 187, 255, 30],
+        "viewport_opacity": 1.0
     },
     // progress bar - background ?
     {
@@ -921,10 +919,10 @@
     // tooltip - background
     {
         "class": "tool_tip_control",
-        "content_margin": [10,10],
+        "content_margin": [10, 10],
         "layer0.texture": "Theme - One Dark/assets/tooltip_bg.png",
         "layer0.inner_margin": [3, 3],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
     },
     // tooltip - label
     {
@@ -1010,18 +1008,24 @@
     {
         "class": "close_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - One Dark/assets/close.png",
-        "layer1.texture": "Theme - One Dark/assets/dirty.png",
-        "layer0.opacity": 1.0,
+        "layer0.texture": "Theme - One Dark/assets/open_files_close.png",
+        "layer1.texture": "Theme - One Dark/assets/open_files_dirty.png",
+        "layer0.opacity": 0.71,
         "layer1.opacity": 0.0,
         "layer0.inner_margin": 0,
         "layer1.inner_margin": 0
+    },
+    // tree view - close button selected
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0,
     },
     // tree view - close button dirty
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - One Dark/assets/close.png",
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
     },
@@ -1029,7 +1033,22 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.71,
+        "layer1.opacity": 0.0
+    },
+    // tree view - close button selected and hover
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "attributes": ["hover"],
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
+    },
+    // tree view - close button pressed
+    {
+        "class": "close_button",
+        "attributes": ["pressed"],
+        "layer0.opacity": 0.4,
         "layer1.opacity": 0.0
     },
     // tree view - label
