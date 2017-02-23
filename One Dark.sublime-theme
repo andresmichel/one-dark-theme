@@ -587,19 +587,19 @@
     {
         "class": "minimap_control",
         "attributes": ["hover"],
-        "viewport_color": [153, 187, 255, 30],
+        "viewport_color": [153, 187, 255, 10],
         "viewport_opacity": 1.0
     },
-    // progress bar - background ?
+    // progress bar - background
     {
         "class": "progress_bar_control",
-        "layer0.tint": [33, 37, 43],
+        "layer0.tint": [27, 29, 35],
         "layer0.opacity": 1.0
     },
-    // progress bar - gauge ?
+    // progress bar - gauge
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [82, 139, 255],
+        "layer0.tint": [86, 138, 242],
         "layer0.opacity": 1.0,
         "content_margin": [0, 6]
     },
@@ -815,10 +815,11 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.inner_margin": 0,
         "layer0.texture": "Theme - One Dark/assets/close_unselected.png",
-        "layer1.texture": "Theme - One Dark/assets/dirty.png",
-        "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+        "layer1.texture": "Theme - One Dark/assets/close_hover.png",
+        "layer2.texture": "Theme - One Dark/assets/close_pressed.png",
+        "layer3.texture": "Theme - One Dark/assets/dirty.png",
+        "layer0.opacity": { "target": 0.0, "speed": 10, "interpolation": "smoothstep" },
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
         "layer3.opacity": 0.0
@@ -829,68 +830,50 @@
         "settings": ["show_tab_close_buttons"],
         "content_margin": [9, 9]
     },
-    // tab - close button tab dirty
+     // tab - close button on selected tab
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - One Dark/assets/close.png"
+    },
+    // tab - close button on dirty tab
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
+        "layer1.opacity": 0.0,
+        "layer2.opacity": 0.0,
+        "layer3.opacity": 1.0,
+        "layer0.texture": "Theme - One Dark/assets/close_dirty.png",
+        "layer1.texture": "Theme - One Dark/assets/close_dirty_hover.png",
+        "layer2.texture": "Theme - One Dark/assets/close_dirty_pressed.png",
     },
     // tab - close button tab hover
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
-        "layer0.texture": "Theme - One Dark/assets/close_unselected.png",
-        "layer1.opacity": 0.0
-    },
-    // tab - close button tab hover and dirty
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 1.0
+        "layer0.opacity": { "target": 1.0, "speed": 10, "interpolation": "smoothstep" },
+        "layer1.opacity": 0.0,
+        "layer2.opacity": 0.0,
+        "layer3.opacity": 0.0
     },
     // tab - close button hover
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - One Dark/assets/close_hover.png",
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0,
+        "layer2.opacity": 0.0,
+        "layer3.opacity": 0.0
     },
     // tab - close button pressed
     {
         "class": "tab_close_button",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - One Dark/assets/close_pressed.png",
-    },
-    // tab - close button selected tab hover
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["selected", "hover"]}],
-        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
-        "layer0.texture": "Theme - One Dark/assets/close.png",
-        "layer1.opacity": 0.0
-    },
-    // tab - close button selected tab hover and dirty
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["selected", "dirty", "hover"]}],
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
-    },
-    // tab - close button selected tab and hover
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "attributes": ["hover"],
-        "layer0.texture": "Theme - One Dark/assets/close_hover.png",
-    },
-    // tab - close button selected tab and pressed
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "attributes": ["pressed"],
-        "layer0.texture": "Theme - One Dark/assets/close_pressed.png",
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 0.0,
+        "layer2.opacity": 1.0,
+        "layer3.opacity": 0.0
     },
     // show tabs - dropdown button
     {
