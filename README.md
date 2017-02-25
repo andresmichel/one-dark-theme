@@ -27,16 +27,17 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 ## Recommended settings
 ```json
 "animation_enabled": false,
-"caret_style": "blink",
 "caret_extra_bottom": 1,
 "caret_extra_top": 2,
 "caret_extra_width": 1,
+"caret_style": "blink",
 "draw_white_space": "none",
 "ensure_newline_at_eof_on_save": true,
 "highlight_line": true,
 "line_padding_bottom": 1,
 "line_padding_top": 2,
 "margin": 0,
+"match_selection": false,
 "overlay_scroll_bars": "enabled",
 ```
 
