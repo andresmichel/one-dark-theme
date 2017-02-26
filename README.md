@@ -1,4 +1,4 @@
-# Sublime Text 3 - One Dark theme
+# One Dark theme
 A dark Sublime Text 3 theme based on [Atom One Dark UI theme](https://github.com/atom/one-dark-ui).
 
 ![Sublime Text 3 - One Dark theme](http://i.imgur.com/uAvxVyh.jpg)
