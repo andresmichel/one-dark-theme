@@ -1,7 +1,7 @@
 # One Dark theme
-A dark Sublime Text 3 theme based on [Atom One Dark UI theme](https://github.com/atom/one-dark-ui).
+A dark Sublime Text theme based on [Atom One Dark UI theme](https://github.com/atom/one-dark-ui).
 
-![Sublime Text 3 - One Dark theme](http://i.imgur.com/uAvxVyh.jpg)
+![Sublime Text - One Dark theme](http://i.imgur.com/uAvxVyh.jpg)
 > Color scheme by [IceTimux](https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme)
 
 ## Installation
@@ -21,7 +21,7 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 
 ```json
 "color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
-"theme": "One Dark.sublime-theme",
+"theme": "One Dark.sublime-theme"
 ```
 
 ## Recommended settings
@@ -39,10 +39,11 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 "margin": 0,
 "match_selection": false,
 "overlay_scroll_bars": "enabled",
+"tree_animation_enabled": false
 ```
 
 ## Optional settings
 ```json
 "show_scroll_tabs": true,
-"show_tabs_dropdown": true,
+"show_tabs_dropdown": true
 ```
