@@ -74,8 +74,8 @@
         "layer1.texture": "Theme - One Dark/assets/goto_panel_row_selected.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
-        "layer0.inner_margin": [1, 1, 1, 0],
-        "layer1.inner_margin": [1, 1, 1, 0]
+        "layer0.inner_margin": [2, 2, 2, 1],
+        "layer1.inner_margin": [2, 2, 2, 1]
     },
     // Command palette panel - row selected
     {
@@ -136,7 +136,7 @@
         "content_margin": [5, 2, 2, 2],
         "layer0.texture": "Theme - One Dark/assets/find_panel_bg.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 1, 0, 0]
+        "layer0.inner_margin": [1, 2, 1, 1]
     },
     // Find panel - text button label
     {
@@ -528,8 +528,8 @@
         "layer1.texture": "Theme - One Dark/assets/goto_panel_row_selected.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
-        "layer0.inner_margin": [1, 1, 1, 0],
-        "layer1.inner_margin": [1, 1, 1, 0]
+        "layer0.inner_margin": [2, 2, 2, 1],
+        "layer1.inner_margin": [2, 2, 2, 1]
     },
     // Goto panel selected
     {
@@ -671,7 +671,7 @@
         "content_margin": [9, 6, 4, 6],
         "layer0.texture": "Theme - One Dark/assets/find_panel_bg.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 1, 0, 0]
+        "layer0.inner_margin": [1, 2, 1, 1]
     },
     // Status bar - margin
     {
@@ -700,6 +700,7 @@
         "class": "tabset_control",
         "layer0.texture": "Theme - One Dark/assets/tab_panel_bg.png",
         "layer0.opacity": 1.0,
+        "layer0.inner_margin": [1, 1, 1, 1],
         "tab_overlap": 0,
         "tab_width": 264,
         "tab_min_width": 107,
@@ -768,8 +769,8 @@
         "layer1.texture": "Theme - One Dark/assets/tab_selected.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
-        "layer0.inner_margin": [3, 9, 2, 0],
-        "layer1.inner_margin": [3, 9, 2, 0],
+        "layer0.inner_margin": [4, 10, 4, 4],
+        "layer1.inner_margin": [4, 10, 4, 4],
         "max_margin_trim": 6,
         "hit_test_level": 0.4
     },
