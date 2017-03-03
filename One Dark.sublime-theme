@@ -65,7 +65,7 @@
         "content_margin": [30, 9, 30, 38],
         "layer0.texture": "Theme - One Dark/assets/goto_panel_bg.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [27, 0, 26, 34]
+        "layer0.inner_margin": [28, 1, 27, 36]
     },
     // Command palette panel - row
     {
@@ -809,6 +809,7 @@
     // Tab - label transient
     {
         "class": "tab_label",
+        "settings": ["!sublime_text_2"],
         "attributes": ["transient"],
         "font.italic": true
     },
@@ -923,6 +924,12 @@
         "layer0.tint": [33, 37, 43],
         "layer0.opacity": 1.0,
         "dark_content": false
+    },
+    // Tree view - ST2
+    {
+        "class": "sidebar_tree",
+        "settings": ["sublime_text_2"],
+        "indent": 12
     },
     // Tree view - margin
     {
@@ -1063,6 +1070,7 @@
     // Tree view - label transient
     {
         "class": "sidebar_label",
+        "settings": ["!sublime_text_2"],
         "attributes": ["transient"],
         "font.italic": true
     },
@@ -1101,23 +1109,9 @@
     // Tree view - folder loading keyframes
     {
         "class": "icon_folder_loading",
+        "settings": ["!sublime_text_2"],
         "content_margin": [8, 8],
-        // "layer0.texture":
-        // {
-        //     "keyframes":
-        //     [
-        //         "Theme - One Dark/icons/spinner_8.png",
-        //         "Theme - One Dark/icons/spinner_7.png",
-        //         "Theme - One Dark/icons/spinner_6.png",
-        //         "Theme - One Dark/icons/spinner_5.png",
-        //         "Theme - One Dark/icons/spinner_4.png",
-        //         "Theme - One Dark/icons/spinner_3.png",
-        //         "Theme - One Dark/icons/spinner_2.png",
-        //         "Theme - One Dark/icons/spinner_1.png",
-        //     ],
-        //     "loop": true,
-        //     "frame_time": 0.075,
-        // },
+        "layer0.texture": "Theme - One Dark/icons/tree_view_folder.png",        
         "layer0.opacity": 0.0
     },
     // Tree view - folder dup icon
