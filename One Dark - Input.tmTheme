@@ -5,7 +5,7 @@
 	<key>author</key>
 	<string>Andres Michel</string>
 	<key>name</key>
-	<string>One Dark (Input)</string>
+	<string>One Dark - Input</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -139,17 +139,17 @@
                 <string>#61afef</string>
             </dict>
         </dict>
-   		<dict>
-   			<key>name</key>
-      		<string>Constant</string>
-      		<key>scope</key>
-      		<string>constant</string>
-      		<key>settings</key>
-      		<dict>
-         		<key>foreground</key>
-         		<string>#d19a66</string>
-      		</dict>
-   		</dict>
+        <dict>
+            <key>name</key>
+            <string>Constant</string>
+            <key>scope</key>
+            <string>constant</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#d19a66</string>
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Constant numeric</string>
@@ -183,7 +183,7 @@
                 <string>#56b6c2</string>
             </dict>
         </dict>
-   		<dict>
+        <dict>
             <key>name</key>
             <string>Storage type</string>
             <key>scope</key>
@@ -195,27 +195,27 @@
             </dict>
         </dict>
         <dict>
-   			<key>name</key>
-      		<string>Storage modifier</string>
-      		<key>scope</key>
-      		<string>storage.modifier</string>
-      		<key>settings</key>
-      		<dict>
-         		<key>foreground</key>
-         		<string>#c678dd</string>
-      		</dict>
-   		</dict>
-   		<dict>
-   			<key>name</key>
-      		<string>Support</string>
-      		<key>scope</key>
-      		<string>support</string>
-      		<key>settings</key>
-      		<dict>
-         		<key>foreground</key>
-         		<string>#e5c07b</string>
-      		</dict>
-   		</dict>
+            <key>name</key>
+            <string>Storage modifier</string>
+            <key>scope</key>
+            <string>storage.modifier</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#c678dd</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Support</string>
+            <key>scope</key>
+            <string>support</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e5c07b</string>
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Keyword</string>
