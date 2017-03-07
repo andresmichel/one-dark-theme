@@ -24,7 +24,7 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 "theme": "One Dark.sublime-theme"
 ```
 
-Add this line just for Sublime Text 2
+For Sublime Text 2 include this line
 ```json
 "sublime_text_2": true
 ```
@@ -42,7 +42,6 @@ Add this line just for Sublime Text 2
 "line_padding_top": 2,
 "margin": 0,
 "match_selection": false,
-"overlay_scroll_bars": "enabled",
 "tree_animation_enabled": false,
 "scroll_past_end": false
 ```
