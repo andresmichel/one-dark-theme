@@ -21,7 +21,9 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 
 ```json
 "color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
-"theme": "One Dark.sublime-theme"
+"theme": "One Dark.sublime-theme",
+// This line is just for Sublime Text 2
+"sublime_text_2": true,
 ```
 
 ## Recommended settings
@@ -39,7 +41,8 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 "margin": 0,
 "match_selection": false,
 "overlay_scroll_bars": "enabled",
-"tree_animation_enabled": false
+"tree_animation_enabled": false,
+"scroll_past_end": false
 ```
 
 ## Optional settings
