@@ -24,7 +24,7 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 "theme": "One Dark.sublime-theme"
 ```
 
-For Sublime Text 2 include this line
+For Sublime Text 2 include this line:
 ```json
 "sublime_text_2": true
 ```
