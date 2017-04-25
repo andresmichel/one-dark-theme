@@ -21,13 +21,10 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 
 ```json
 "color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
-"theme": "One Dark.sublime-theme"
+"theme": "One Dark.sublime-theme",
+"sublime_text_2": true // Include this line just for Sublime Text 2
 ```
 
-For Sublime Text 2 include this line:
-```json
-"sublime_text_2": true
-```
 ### Recommended settings
 ```json
 "animation_enabled": false,
@@ -48,6 +45,6 @@ For Sublime Text 2 include this line:
 
 ### Optional settings
 ```json
-"show_scroll_tabs": true,
-"show_tabs_dropdown": true
+"show_scroll_tabs": true, // Just for Sublime Text 3
+"show_tabs_dropdown": true // Just for Sublime Text 3
 ```
