@@ -40,7 +40,8 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 "margin": 0,
 "match_selection": false,
 "tree_animation_enabled": false,
-"scroll_past_end": false
+"scroll_past_end": false,
+"show_definitions": false
 ```
 
 ### Optional settings
