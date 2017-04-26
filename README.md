@@ -1,7 +1,7 @@
 # One Dark theme
 A dark Sublime Text theme based on [Atom One Dark UI theme](https://github.com/atom/one-dark-ui).
 
-![Sublime Text - One Dark theme](http://i.imgur.com/uAvxVyh.jpg)
+![Sublime Text - One Dark theme](http://i.imgur.com/DDzE2M4.png)
 > Color scheme by [IceTimux](https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme)
 
 ## Installation
@@ -22,7 +22,7 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 ```json
 "color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
 "theme": "One Dark.sublime-theme",
-"sublime_text_2": true // Include this line just for Sublime Text 2
+"sublime_text_2": true // Just for Sublime Text 2
 ```
 
 ### Recommended settings
