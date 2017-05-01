@@ -22,7 +22,7 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 ```json
 "color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
 "theme": "One Dark.sublime-theme",
-"sublime_text_2": true // Just for Sublime Text 2
+"sublime_text_2": true // Only for Sublime Text 2
 ```
 
 ### Recommended settings
@@ -46,6 +46,6 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 
 ### Optional settings
 ```json
-"show_scroll_tabs": true, // Just for Sublime Text 3
-"show_tabs_dropdown": true // Just for Sublime Text 3
+"show_scroll_tabs": true, // Only for Sublime Text 3
+"show_tabs_dropdown": true // Only for Sublime Text 3
 ```
