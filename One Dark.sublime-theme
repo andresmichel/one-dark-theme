@@ -674,7 +674,7 @@
         "color": [157, 165, 180],
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
-        "font.size": 11
+        "font.size": 12
     },
     // Status bar - background
     {
@@ -717,11 +717,11 @@
         "class": "tabset_control",
         "layer0.texture": "Theme - One Dark/assets/tab_panel_bg.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [1, 1, 1, 2],
+        "layer0.inner_margin": [2, 2],
         "tab_overlap": 0,
         "tab_width": 264,
         "tab_min_width": 107,
-        "tab_height": 42,
+        "tab_height": 31,
         "mouse_wheel_switch": false
     },
     // Tab panel - mouse wheel switch
@@ -744,7 +744,7 @@
     // Scroll tab - left button hidden
     {
         "class": "scroll_tabs_left_button",
-        "settings": ["!show_scroll_tabs"],
+        "settings": ["!show_scroll_tabs", "!one_dark_show_scroll_tabs"],
         "content_margin": [0, 0]
     },
     // Scroll tab - left button hover
@@ -768,7 +768,7 @@
     // Scroll tab - right button hidden
     {
         "class": "scroll_tabs_right_button",
-        "settings": ["!show_scroll_tabs"],
+        "settings": ["!show_scroll_tabs", "!one_dark_show_scroll_tabs"],
         "content_margin": [0, 0]
     },
     // Scroll tab - right button hover
@@ -781,13 +781,13 @@
     // Tab unselected
     {
         "class": "tab_control",
-        "content_margin": [33, 3, 9, 0],
+        "content_margin": [33, -1, 7, 0],
         "layer0.texture": "Theme - One Dark/assets/tab_unselected.png",
         "layer1.texture": "Theme - One Dark/assets/tab_selected.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
-        "layer0.inner_margin": [1, 1, 1, 2],
-        "layer1.inner_margin": [4, 11, 4, 4],
+        "layer0.inner_margin": [2, 2],
+        "layer1.inner_margin": [4, 4],
         "max_margin_trim": 6,
         "hit_test_level": 0.4
     },
@@ -805,7 +805,7 @@
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0],
         "font.italic": false,
-        "font.size": 11
+        "font.size": 12
     },
     // Tab - label selected
     {
@@ -826,7 +826,7 @@
     // Tab - label transient
     {
         "class": "tab_label",
-        "settings": ["!sublime_text_2"],
+        "settings": ["!sublime_text_2", "!one_dark_sublime_text_2"],
         "attributes": ["transient"],
         "font.italic": true
     },
@@ -908,7 +908,7 @@
     // Show tabs - dropdown button hidden
     {
         "class": "show_tabs_dropdown_button",
-        "settings": ["!show_tabs_dropdown"],
+        "settings": ["!show_tabs_dropdown", "!one_dark_show_tabs_dropdown"],
         "content_margin": [0, 0]
     },
     // Show tabs - dropdown button hover
@@ -929,7 +929,8 @@
     // Tooltip - label
     {
         "class": "tool_tip_label_control",
-        "color": [255, 255, 255]
+        "color": [255, 255, 255],
+        "font.size": 12
     },
     // Tree view - background and padding
     {
@@ -945,13 +946,19 @@
     // Tree view - ST2
     {
         "class": "sidebar_tree",
-        "settings": ["sublime_text_2"],
+        "settings": ["sublime_text_2", "!one_dark_sublime_text_2"],
+        "indent": 12
+    },
+    // One Dark settings prefix
+    {
+        "class": "sidebar_tree",
+        "settings": ["!sublime_text_2", "one_dark_sublime_text_2"],
         "indent": 12
     },
     // Tree view - margin
     {
         "class": "sidebar_container",
-        "content_margin": [0, 0, 1, 0],
+        "content_margin": [0, 1, 1, 0],
         "layer0.tint": [24, 26, 31],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false
@@ -960,7 +967,8 @@
     {
         "class": "sidebar_heading",
         "color": [215, 218, 224],
-        "font.bold": true,
+        "font.size": 12,
+        "font.bold": false,
         "shadow_color": [0, 0, 0, 0],
         "shadow_offset": [0, 0]
     },
@@ -1086,7 +1094,7 @@
     // Tree view - label transient
     {
         "class": "sidebar_label",
-        "settings": ["!sublime_text_2"],
+        "settings": ["!sublime_text_2", "!one_dark_sublime_text_2"],
         "attributes": ["transient"],
         "font.italic": true
     },
@@ -1141,5 +1149,12 @@
         "class": "icon_folder_dup",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
+    },
+    // Window - background
+    {
+        "class": "title_bar",
+        "settings": ["!one_dark_native_title_bar"],
+        "bg": [40, 44, 52],
+        "fg": [167, 175, 190]
     }
 ]
