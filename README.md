@@ -41,7 +41,8 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 "match_selection": false,
 "tree_animation_enabled": false,
 "scroll_past_end": false,
-"show_definitions": false
+"show_definitions": false,
+"show_tab_close_buttons": true // Mandatory if you want to see unsaved files in tab
 ```
 
 ### Optional settings
