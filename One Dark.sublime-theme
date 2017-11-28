@@ -71,10 +71,10 @@
     // Command palette and goto panel background
     {
         "class": "overlay_control",
-        "content_margin": [30, 9, 30, 38],
+        "content_margin": [8, 8, 8, 9],
         "layer0.texture": "Theme - One Dark/assets/goto_panel_bg.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [28, 1, 27, 36]
+        "layer0.inner_margin": [7, 1, 7, 9]
     },
     // Command palette panel - row
     {
