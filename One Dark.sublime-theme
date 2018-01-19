@@ -578,7 +578,7 @@
     // Layout - grid border
     {
         "class": "grid_layout_control",
-        "border_size": 1,
+        "border_size": 0.5  ,
         "border_color": [24, 26, 31]
     },
     // Mini map
