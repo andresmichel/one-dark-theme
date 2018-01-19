@@ -1134,7 +1134,7 @@
     {
         "class": "icon_folder_loading",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - One Dark/icons/tree_view_folder.png",        
+        "layer0.texture": "Theme - One Dark/icons/tree_view_folder.png",
         "layer0.opacity": 0.0
     },
     // Tree view - folder dup icon
@@ -1156,5 +1156,23 @@
         "settings": ["!one_dark_native_title_bar"],
         "bg": [43, 48, 59],
         "fg": [167, 175, 190]
-    }
+    },
+    // Font Fira Light
+    {
+        "class": "sidebar_label",
+        "settings": ["one_dark_sidebar_font_fira_light"],
+        "font.face": "Fira Code Light"
+    },
+    // Font Fira
+    {
+        "class": "sidebar_label",
+        "settings": ["one_dark_sidebar_font_fira"],
+        "font.face": "Fira Code"
+    },
+    // Increase sidebar font size
+    {
+        "class": "sidebar_label",
+        "settings": ["one_dark_bigger_sidebar"],
+        "font.size": 14,
+    },
 ]
