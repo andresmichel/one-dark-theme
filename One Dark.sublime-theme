@@ -935,7 +935,7 @@
     // Tree view - background and padding
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 5],
+        "row_padding": [6, 6],
         "indent": 17,
         "indent_offset": 14,
         "indent_top_level": false,
