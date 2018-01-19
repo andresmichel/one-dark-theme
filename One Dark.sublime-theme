@@ -2,7 +2,7 @@
     // Autocomplete - background
     {
         "class": "auto_complete",
-        "layer0.tint": [40, 44, 52],
+        "layer0.tint": [43, 48, 59],
         "layer0.opacity": 1.0,
         "row_padding": [7, 4],
         "dark_content": false
@@ -1154,7 +1154,7 @@
     {
         "class": "title_bar",
         "settings": ["!one_dark_native_title_bar"],
-        "bg": [40, 44, 52],
+        "bg": [43, 48, 59],
         "fg": [167, 175, 190]
     }
 ]
