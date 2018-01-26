@@ -47,7 +47,9 @@ Open your preferences `Preferences` > `Setting - User` and add this lines:
 
 ### Optional settings
 ```json
-"one_dark_native_title_bar": true, // Only for Mac & Sublime Text 3 >= build 3127
-"one_dark_show_scroll_tabs": true, // Only for Sublime Text 3
-"one_dark_show_tabs_dropdown": true // Only for Sublime Text 3
+"one_dark_native_title_bar": true,        // Only for Mac & Sublime Text 3 >= build 3127
+"one_dark_show_scroll_tabs": true,        // Only for Sublime Text 3
+"one_dark_show_tabs_dropdown": true       // Only for Sublime Text 3
+"one_dark_bigger_sidebar": true,          // Uses font-size 14 for the sidebar
+"one_dark_sidebar_font_fira_light": true, // Uses Fira Light for the sidebar
 ```
