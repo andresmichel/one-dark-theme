@@ -14,7 +14,7 @@
 				<key>foreground</key>
 				<string>#6c7079</string>
 				<key>background</key>
-				<string>#282c34</string>
+				<string>#2B303B</string>
 				<key>invisibles</key>
 				<string>#747369</string>
 				<key>caret</key>
@@ -38,7 +38,7 @@
 				<key>findHighlightForeground</key>
 				<string>#528bff</string>
 				<key>gutter</key>
-				<string>#282c34</string>
+				<string>#2B303B</string>
 				<key>gutterForeground</key>
 				<string>#636d8388</string>
 				<key>selection</key>
@@ -58,7 +58,7 @@
 				<key>highlightForeground</key>
 				<string>#528bff</string>
 				<key>shadow</key>
-				<string>#282c34</string>
+				<string>#2B303B</string>
 				<key>shadowWidth</key>
 				<string>1</string>
 			</dict>

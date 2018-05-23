@@ -2,7 +2,7 @@
     // Autocomplete - background
     {
         "class": "auto_complete",
-        "layer0.tint": [40, 44, 52],
+        "layer0.tint": [43, 48, 59],
         "layer0.opacity": 1.0,
         "row_padding": [7, 4],
         "dark_content": false
@@ -578,7 +578,7 @@
     // Layout - grid border
     {
         "class": "grid_layout_control",
-        "border_size": 1,
+        "border_size": 0.5  ,
         "border_color": [24, 26, 31]
     },
     // Mini map
@@ -935,7 +935,7 @@
     // Tree view - background and padding
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 5],
+        "row_padding": [6, 6],
         "indent": 17,
         "indent_offset": 14,
         "indent_top_level": false,
@@ -1134,7 +1134,7 @@
     {
         "class": "icon_folder_loading",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - One Dark/icons/tree_view_folder.png",        
+        "layer0.texture": "Theme - One Dark/icons/tree_view_folder.png",
         "layer0.opacity": 0.0
     },
     // Tree view - folder dup icon
@@ -1154,7 +1154,25 @@
     {
         "class": "title_bar",
         "settings": ["!one_dark_native_title_bar"],
-        "bg": [40, 44, 52],
+        "bg": [43, 48, 59],
         "fg": [167, 175, 190]
-    }
+    },
+    // Font Fira Light
+    {
+        "class": "sidebar_label",
+        "settings": ["one_dark_sidebar_font_fira_light"],
+        "font.face": "Fira Code Light"
+    },
+    // Font Fira
+    {
+        "class": "sidebar_label",
+        "settings": ["one_dark_sidebar_font_fira"],
+        "font.face": "Fira Code"
+    },
+    // Increase sidebar font size
+    {
+        "class": "sidebar_label",
+        "settings": ["one_dark_bigger_sidebar"],
+        "font.size": 14,
+    },
 ]
